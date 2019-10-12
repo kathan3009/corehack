@@ -1,0 +1,160 @@
+html {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800; 
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0; 
+}
+.navbar {
+    background-color: #792d8f;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+  }
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    list-style-type: none;
+    padding: 1.5vw 5vw 1vw 5vw;
+  }
+ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul a:hover {
+    transition: 0.2s;
+}
+
+video {
+    width: 90%;
+    height: 50%;
+    margin: 0;
+    display: block;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.heading {
+    color: #fff;
+}
+#main {
+    background-color: #792d8f;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2390268e' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23a61e8e' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23bd178d' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23d30f8d' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23ea088c' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: cover;
+    padding-top: 8vw;
+}
+.pink {
+    background: #ea088c;
+    color: #fff;
+}
+footer {
+    font-size: 1.2rem;
+    padding: 2rem 0;
+    line-height: 2rem;
+    background: #ea088c;
+    color: #f7f7f7;
+    text-align: center;   
+}
+
+.pad {
+    padding: 8vw;
+}
+.minipad {
+    padding: 2vw 2vw 2vw 0;
+}
+.button {
+    border-radius: 100px;
+}
+
+.tex {
+    height: 50%;
+}
+
+.phones {
+    position: relative;
+}
+.phone {
+    position: relative;
+    max-width: 80%;
+}
+  .phone + .phone {
+    display: none;
+}
+
+#members img {
+  
+    width: 5em;
+}
+#members p {
+    margin-top: -1.2vw;
+}
+#main img {
+    display: none;
+}
+
+#main p {
+    color: #fff;
+}
+@media (min-width: 550px) {
+    #main img {
+        display: block;
+    }
+}
+@media (max-width: 550px) {
+    #main {
+        padding-top: 30vw;
+        padding-bottom: 30vw;
+    }
+    #mockup {
+        display: none;
+    }
+    #members img {
+        width: 25vw;
+    }
+    .four {
+        text-align: center;
+    }
+    .three {
+        text-align: center;
+    }
+}
+
+.momos {
+    display: none;
+}
+
+.vertical-center {
+    margin-top: 10%;
+}
+
+#mainn {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#iphone-x {
+    position: relative;
+    margin: 40px auto;
+    width: 415x;
+    height: 900px;
+    border-radius: 40px;
+    background-color: #1f1f1f;
+    box-shadow: 0px 0px 0px 11px #1f1f1f, 0px 0px 0px 13px #191919, 0px 0px 0px 20px #111, 8px 8px 40px #000;
+    overflow: hidden;
+}
